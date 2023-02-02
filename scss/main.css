@@ -40,4 +40,23 @@ a {
   .container {
     max-width: 124.8rem;
   }
+}
+
+header {
+  margin-top: 4rem;
+}
+header .container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+header .container .menu li a {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  transition: color 0.3s ease;
+}
+header .container .menu li a:hover {
+  color: #0487E2;
 }/*# sourceMappingURL=main.css.map */
