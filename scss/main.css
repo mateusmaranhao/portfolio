@@ -101,4 +101,30 @@ header .container .menu li a:hover {
 }
 .s-hero .container .arrow img {
   width: 3.5rem;
+  -webkit-animation: floating 5s infinite;
+          animation: floating 5s infinite;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=main.css.map */
