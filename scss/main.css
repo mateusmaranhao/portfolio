@@ -59,4 +59,46 @@ header .container .menu li a {
 }
 header .container .menu li a:hover {
   color: #0487E2;
+}
+
+.s-hero {
+  margin-top: 34.7rem;
+}
+.s-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s-hero .container .text {
+  width: 100%;
+  max-width: 49rem;
+}
+.s-hero .container .text span {
+  color: #7C8489;
+}
+.s-hero .container .text .top-left {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.s-hero .container .text .title {
+  font-weight: 700;
+  font-size: 12.8rem;
+  line-height: 10rem;
+  color: #F2F2F2;
+}
+.s-hero .container .text .bottom-right span {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  display: block;
+  text-align: right;
+}
+.s-hero .container .arrow {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 34.7rem;
+}
+.s-hero .container .arrow img {
+  width: 3.5rem;
 }/*# sourceMappingURL=main.css.map */

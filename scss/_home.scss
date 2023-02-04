@@ -1,0 +1,50 @@
+.s-hero {
+    margin-top: 34.7rem;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .text {
+            width: 100%;
+            max-width: 49rem;
+
+            span {
+                color: $gray-200;
+            }
+
+            .top-left {
+                font-size: 1.8rem;
+                line-height: 2.7rem;
+            }
+            .title {
+                font-weight: 700;
+                font-size: 12.8rem;
+                line-height: 10rem;
+                color: $white;
+            }
+            .bottom-right {
+                span {
+                    font-size: 1.8rem;
+                    line-height: 2rem;
+                    display: block;
+                    text-align: right;
+                }
+            }
+        }
+
+        .arrow {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            margin-top: 34.7rem;
+
+            img {
+                width: 3.5rem;
+            }
+        }
+    }
+}
