@@ -9,7 +9,7 @@
 
         .text {
             width: 100%;
-            max-width: 49rem;
+            max-width: 52.6rem;
 
             span {
                 color: $gray-200;
@@ -22,15 +22,30 @@
             .title {
                 font-weight: 700;
                 font-size: 12.8rem;
-                line-height: 10rem;
+                line-height: 10.2rem;
                 color: $white;
+                text-transform: uppercase;
+                margin-bottom: 0.5rem;
             }
             .bottom-right {
-                span {
+                width: 23rem;
+                .js-text {
+                    position: relative;
+                    left: 29.4rem;
                     font-size: 1.8rem;
                     line-height: 2rem;
-                    display: block;
-                    text-align: right;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background-color: $black;
+                        border-left: 0.2rem solid $accent;
+                        animation: animate 4s steps(20) infinite;
+                    }
                 }
             }
         }
@@ -60,4 +75,12 @@
 	100% {
 		transform: translateY(0);
 	}
+}
+@keyframes animate {
+    40%, 60% {
+        left: calc(100% + 0.4rem);
+    }
+    100% {
+        left: 0%;
+    }
 }
