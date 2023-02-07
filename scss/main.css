@@ -30,6 +30,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
 .container {
   width: 100%;
   max-width: 143.5rem;
@@ -40,6 +45,16 @@ a {
   .container {
     max-width: 124.8rem;
   }
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+.subtitle .accent {
+  color: #0487E2;
 }
 
 header {
@@ -120,6 +135,29 @@ header .container .menu li a:hover {
   width: 3.5rem;
   -webkit-animation: floating 5s infinite;
           animation: floating 5s infinite;
+}
+
+.s-about {
+  margin-top: 17.6rem;
+}
+.s-about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-about .container .left {
+  width: 100%;
+  max-width: 79rem;
+}
+.s-about .container .left .subtitle {
+  margin-bottom: 4rem;
+}
+.s-about .container .right .photo {
+  filter: saturate(0);
+  transition: filter 0.3s ease;
+}
+.s-about .container .right .photo:hover {
+  filter: saturate(1);
 }
 
 @-webkit-keyframes floating {

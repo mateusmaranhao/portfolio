@@ -65,6 +65,35 @@
     }
 }
 
+.s-about {
+    margin-top: 17.6rem;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left {
+            width: 100%;
+            max-width: 79rem;
+
+            .subtitle {
+                margin-bottom: 4rem;
+            }
+        }
+        .right {
+            .photo {
+                filter: saturate(0);
+                transition: filter 0.3s ease;
+
+                &:hover {
+                    filter: saturate(1);
+                }
+            }
+        }
+    }
+}
+
+
 @keyframes floating {
 	0% {
 		transform: translateY(0);
