@@ -93,7 +93,32 @@
     }
 }
 
+.s-knowledge {
+    margin-top: 12.6rem;
 
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .stacks {
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 3.2rem;
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    width: 17.6rem;
+                    height: 17.6rem;
+                    background-color: $gray-300;
+                }
+            }
+        }
+    }
+}
 @keyframes floating {
 	0% {
 		transform: translateY(0);

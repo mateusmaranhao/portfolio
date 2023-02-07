@@ -160,6 +160,28 @@ header .container .menu li a:hover {
   filter: saturate(1);
 }
 
+.s-knowledge {
+  margin-top: 12.6rem;
+}
+.s-knowledge .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-knowledge .container .stacks ul {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.s-knowledge .container .stacks ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17.6rem;
+  height: 17.6rem;
+  background-color: rgba(30, 30, 30, 0.1176470588);
+}
+
 @-webkit-keyframes floating {
   0% {
     transform: translateY(0);
