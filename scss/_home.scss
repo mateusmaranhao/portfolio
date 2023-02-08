@@ -119,6 +119,44 @@
         }
     }
 }
+
+.s-projects {
+    margin-top: 11.6rem;
+
+
+    .project {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        position: sticky;
+        top: 0;
+
+        .left {
+            position: sticky;
+            height: 100%;
+            width: 100%;
+            max-width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            background-color: $white;
+
+        }
+        .right {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            background-color: $gray-100;
+        }
+    }
+}
+
 @keyframes floating {
 	0% {
 		transform: translateY(0);
