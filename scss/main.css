@@ -253,6 +253,67 @@ header .container .menu li a:hover {
   background-color: #D2E0E9;
 }
 
+.s-contact {
+  margin-top: 7.6rem;
+}
+.s-contact .container .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-contact .container .top .text {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.s-contact .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s-contact .container form .field {
+  margin-bottom: 2rem;
+}
+.s-contact .container form .field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.s-contact .container form .field label .accent {
+  color: #0487E2;
+}
+.s-contact .container form .field input {
+  width: 43.3rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #828282;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 0.5rem;
+}
+.s-contact .container form .field textarea {
+  background-color: transparent;
+  border: 0;
+  width: 43.3rem;
+  border-bottom: 1px solid #828282;
+  padding-bottom: 0.5rem;
+}
+.s-contact .container form .form-btn {
+  width: 43rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  background-color: #0487E2;
+  border: none;
+  outline: none;
+  padding: 1rem 0;
+  margin-right: 1rem;
+}
+
 @keyframes floating {
   0% {
     transform: translateY(0);
