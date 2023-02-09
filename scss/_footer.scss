@@ -1,0 +1,46 @@
+footer {
+    margin-top: 11.6rem;
+    background-color: $gray-300;
+
+    .container {
+        padding-top: 6rem;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            li {
+                a {
+                    text-transform: uppercase;
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                    transition: color .3s ease;
+
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+            }
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4.6rem 0 3rem;
+
+            .copy {
+                font-size: 1.8rem;
+                line-height: 2.7rem;
+            }
+
+            .social-medias {
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+            }
+        }
+    }
+}
