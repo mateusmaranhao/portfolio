@@ -11,12 +11,13 @@
 
     <title>Mateus Maranhão - Front-end</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <ul class="menu">
+            <ul class="menu" data-aos="fade-down">
                 <li>
                     <a href="./">Home</a>
                 </li>
@@ -36,8 +37,8 @@
     <section class="s-hero">
         <div class="container">
             <div class="text">
-                <span class="top-left">olá, eu sou o</span>
-                <h1 class="title">Mateus</h1>
+                <p class="top-left">olá, eu sou o</p>
+                <h1 class="title" data-aos="fade-right">Mateus</h1>
                 <div class="bottom-right">
                     <span class="js-text"></span>
                 </div>
@@ -51,14 +52,14 @@
 
     <section class="s-about">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h2 class="subtitle">Sobre mim<span class="accent">.</span></h2>
 
                 <p class="info">
                     Meu nome é Mateus César e sou de Salto de Pirapora - SP (Brasil). Minha paixão por desenvolvimento web começou no ano de 2020, quando tive contato com os cursos da Origamid. Desde então eu venho estudando e aprimorando minhas habilidades em Front-end e UI Desing.
                 </p>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-left">
                 <img src="./img/my-photo.png" alt="Uma foto minha" class="photo">
             </div>
         </div>
@@ -66,15 +67,12 @@
 
     <section class="s-knowledge">
         <div class="container">
-            <h2 class="subtitle">Conhecimentos<span class="accent">.</span></h2>
+            <h2 class="subtitle" data-aos="fade-right">Conhecimentos<span class="accent">.</span></h2>
 
-            <div class="stacks">
+            <div class="stacks" data-aos="fade-left">
                 <ul>
                     <li>
-                        <!-- <img src="./img/logo-html.svg" alt="HTML"> -->
-                        <svg width="95" height="110" viewBox="0 0 95 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="css" d="M0 0L8.56821 97.185L47.0211 110L85.7175 97.185L94.2857 0H0ZM75.6721 31.405H30.5407L31.5464 43.5364H74.6625L71.3232 79.9739L47.2843 86.6054V86.68H47.0132L22.7779 79.9779L21.3046 61.3643H33.0157L33.8761 70.7182L47.0132 74.2775L60.1975 70.7182L61.6707 55.4479H20.6918L17.5489 19.6979H76.7486L75.6721 31.405Z" fill="#0487E2"/>
-                        </svg>
+                        <img src="./img/logo-html.svg" alt="HTML">
                     </li>
                     <li>
                         <img src="./img/logo-css.svg" alt="CSS">
@@ -94,7 +92,7 @@
         <div class="project">
             <div class="left">
                 <div class="half-container">
-                    <div class="project-info">
+                    <div class="project-info" data-aos="fade-down">
                         <h3 class="tag">Projeto desenvolvido no evento dev.process</h3>
                         <h2 class="name">God of War</h2>
     
@@ -110,14 +108,14 @@
                 </div>
             </div>
             <div class="right">
-                <img src="./img/gow-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print">
+                <img src="./img/gow-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print" data-aos="fade-up">
             </div>
         </div>
 
         <div class="project">
             <div class="left">
                 <div class="half-container">
-                    <div class="project-info">
+                    <div class="project-info" data-aos="fade-down">
                         <h3 class="tag">Desafio do curso codeboost</h3>
                         <h2 class="name">Môre</h2>
     
@@ -133,14 +131,14 @@
                 </div>
             </div>
             <div class="right">
-                <img src="./img/more-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print">
+                <img src="./img/more-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print"  data-aos="fade-up">
             </div>
         </div>
 
         <div class="project">
             <div class="left">
                 <div class="half-container">
-                    <div class="project-info">
+                    <div class="project-info"  data-aos="fade-down">
                         <h3 class="tag">Desafio do Codelândia</h3>
                         <h2 class="name">Xbox</h2>
     
@@ -155,44 +153,42 @@
                 </div>
             </div>
             <div class="right">
-                <img src="./img/xbox-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print">
+                <img src="./img/xbox-lp.png" alt="Print da landing page do God of War Ragnarok" class="project-print"  data-aos="fade-up">
             </div>
         </div>
     </section>
     
     <section class="s-contact">
         <div class="container">
-            <div class="top">
+            <div class="top"  data-aos="fade-down">
                 <h2 class="subtitle">Contato<span class="accent">.</span></h2>
 
                 <span class="text">Vamos trabalhar em um projeto juntos?</span>
             </div>
 
             <form action="https://formsubmit.co/mateusmaranhao0210@gmail.com" method="POST">
-                <div class="field">
+                <div class="field" data-aos="fade-down">
                     <label for="name">Seu nome <span class="accent">*</span></label>
                     <input type="text" name="name" placeholder="Digite seu nome" required>
                 </div>
-                <div class="field">
+                <div class="field" data-aos="fade-down">
                     <label for="company">Sua empresa <span class="accent">*</span></label>
                     <input type="text" name="company" placeholder="Digite o nome da sua empresa" required>
                 </div>
 
-                <div class="field">
+                <div class="field" data-aos="fade-down">
                     <label for="email">Seu e-mail <span class="accent">*</span></label>
                     <input type="text" name="email" placeholder="Digite seu e-mail" required>
                 </div>
 
-                <div class="field">
+                <div class="field" data-aos="fade-down">
                     <label for="message">Seu projeto <span class="accent">*</span></label>
                     <textarea name="message" placeholder="Qual a quantidade de telas, suas funcionalidades, quais problemas ele resolve para seus clientes" required></textarea>
                 </div>
 
                 <input type="hidden" name="_captcha" value="false">
                 
-                <button type="submit" class="form-btn">Enviar</button>
-
-
+                <button type="submit" class="form-btn" data-aos="fade-up">Enviar</button>
            </form>
         </div>
     </section>
@@ -239,6 +235,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

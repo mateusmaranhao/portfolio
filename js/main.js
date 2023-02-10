@@ -13,3 +13,9 @@ const textLoad = () => {
 textLoad();
 
 setInterval(textLoad, 8000);
+
+
+AOS.init({
+    duration: 1000,
+    once: true,
+});
