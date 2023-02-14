@@ -91,6 +91,28 @@
             }
         }
     }
+
+    @media(max-width: 1200px) {
+        .container {
+            .left {
+                max-width: 58rem;
+            }
+        }
+    }
+    @media(max-width: 991px) {
+        .container {
+            flex-direction: column;
+
+            .left {
+                .subtitle {
+                    margin-bottom: 2rem;
+                }
+                .info {
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
 }
 
 .s-knowledge {

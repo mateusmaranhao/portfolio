@@ -200,6 +200,22 @@ header .container .menu li a:hover {
 .s-about .container .right .photo:hover {
   filter: saturate(1);
 }
+@media (max-width: 1200px) {
+  .s-about .container .left {
+    max-width: 58rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-about .container {
+    flex-direction: column;
+  }
+  .s-about .container .left .subtitle {
+    margin-bottom: 2rem;
+  }
+  .s-about .container .left .info {
+    margin-bottom: 4rem;
+  }
+}
 
 .s-knowledge {
   margin-top: 12.6rem;
