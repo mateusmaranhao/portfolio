@@ -238,6 +238,23 @@ header .container .menu li a:hover {
   height: 17.6rem;
   background-color: rgba(30, 30, 30, 0.1176470588);
 }
+@media (max-width: 991px) {
+  .s-knowledge .container {
+    flex-direction: column;
+  }
+  .s-knowledge .container .stacks ul {
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 580px) {
+  .s-knowledge {
+    margin-top: 8rem;
+  }
+  .s-knowledge .container .stacks ul {
+    flex-direction: column;
+  }
+}
 
 .s-projects {
   margin-top: 11.6rem;

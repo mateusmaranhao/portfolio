@@ -140,6 +140,28 @@
             }
         }
     }
+
+    @media(max-width: 991px) {
+        .container {
+            flex-direction: column;
+            .stacks {
+                ul {
+                    margin-top: 2rem;
+                    gap: 1.5rem;
+                }
+            }
+        }
+    }
+    @media(max-width: 580px) {
+       margin-top: 8rem;
+       .container {
+        .stacks {
+            ul {
+                flex-direction: column;
+            }
+        }
+       }
+    }
 }
 
 .s-projects {
