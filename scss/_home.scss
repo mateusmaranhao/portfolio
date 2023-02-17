@@ -300,7 +300,8 @@
                     }
                 }
                 input {
-                    width: 43.3rem;
+                    width: 100%;
+                    max-width: 43.3rem;
                     background-color: transparent;
                     border: none;
                     outline: none;
@@ -312,13 +313,15 @@
                 textarea {
                     background-color: transparent;
                     border: 0;
-                    width: 43.3rem;
+                    width: 100%;
+                    max-width: 43.3rem;
                     border-bottom: 1px solid $gray-400;
                     padding-bottom: 0.5rem;
                 }
             }
             .form-btn {
-                width: 43rem;
+                width: 100%;
+                max-width: 43.3rem;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 1.6rem;
@@ -330,6 +333,26 @@
                 padding: 1rem 0;       
                 margin-right: 1rem;
 
+            }
+        }
+    }
+
+    @media(max-width: 580px) {
+        .container {
+            .top {
+                flex-direction: column;
+
+                .text {
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                }
+            }
+
+            form {
+                margin-top: 5rem;
+                .field {
+                    width: 100%;
+                }
             }
         }
     }

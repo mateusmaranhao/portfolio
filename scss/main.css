@@ -361,7 +361,8 @@ header .container .menu li a:hover {
   color: #0487E2;
 }
 .s-contact .container form .field input {
-  width: 43.3rem;
+  width: 100%;
+  max-width: 43.3rem;
   background-color: transparent;
   border: none;
   outline: none;
@@ -373,12 +374,14 @@ header .container .menu li a:hover {
 .s-contact .container form .field textarea {
   background-color: transparent;
   border: 0;
-  width: 43.3rem;
+  width: 100%;
+  max-width: 43.3rem;
   border-bottom: 1px solid #828282;
   padding-bottom: 0.5rem;
 }
 .s-contact .container form .form-btn {
-  width: 43rem;
+  width: 100%;
+  max-width: 43.3rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1.6rem;
@@ -389,6 +392,21 @@ header .container .menu li a:hover {
   outline: none;
   padding: 1rem 0;
   margin-right: 1rem;
+}
+@media (max-width: 580px) {
+  .s-contact .container .top {
+    flex-direction: column;
+  }
+  .s-contact .container .top .text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .s-contact .container form {
+    margin-top: 5rem;
+  }
+  .s-contact .container form .field {
+    width: 100%;
+  }
 }
 
 @keyframes floating {
