@@ -5,6 +5,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   color: #D2E0E9;
+  overflow-x: hidden;
 }
 
 button {
@@ -349,6 +350,7 @@ header .container .menu li a:hover {
   margin-top: 9rem;
 }
 .s-contact .container form .field {
+  width: 43.3rem;
   margin-bottom: 2rem;
 }
 .s-contact .container form .field label {
@@ -391,7 +393,6 @@ header .container .menu li a:hover {
   border: none;
   outline: none;
   padding: 1rem 0;
-  margin-right: 1rem;
 }
 @media (max-width: 580px) {
   .s-contact .container .top {
@@ -464,4 +465,36 @@ footer .container .info .social-medias {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+@media (max-width: 991px) {
+  footer .container .info {
+    flex-direction: column-reverse;
+  }
+  footer .container .info .social-medias {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 580px) {
+  footer {
+    margin-top: 5rem;
+  }
+  footer .container {
+    padding-top: 3rem;
+  }
+  footer .container .menu {
+    flex-direction: column;
+  }
+  footer .container .menu li a {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  footer .container .info {
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+  }
+  footer .container .info .copy {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */

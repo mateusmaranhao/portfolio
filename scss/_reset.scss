@@ -5,6 +5,7 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
     color: $gray-100;
+    overflow-x: hidden;
 }
 
 button {
@@ -34,10 +35,3 @@ p {
     font-size: 1.8rem;
     line-height: 2.7rem;
 }
-
-// @media(max-width: 991px) {
-//     p {
-//         font-size: 1.6rem;
-//         line-height: 2.4rem;
-//     }
-// }
