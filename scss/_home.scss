@@ -18,6 +18,7 @@
             .top-left {
                 font-size: 1.8rem;
                 line-height: 2.7rem;
+                color: $gray-200;
             }
             .title {
                 font-weight: 700;
@@ -60,6 +61,37 @@
             img {
                 width: 3.5rem;
                 animation: floating 5s infinite;
+            }
+        }
+    }
+
+    @media(max-width: 991px) {
+        .container {
+            .arrow {
+                margin-top: 40rem;
+            }
+        }
+    }
+
+    @media(max-width: 580px) {
+        margin-top: 25rem;
+        .container {
+            .text {
+                .title {
+                    font-size: 8.4rem;
+                    line-height: 8.4rem;
+                    margin-bottom: 0;
+                }
+                .bottom-right {
+                    width: 100vw;
+                    overflow-x: hidden;
+                    .js-text {
+                        left: 0;
+                    }
+                }
+            }
+            .arrow {
+                margin-top: 32rem;
             }
         }
     }
