@@ -22,4 +22,17 @@ header {
             }
         }
     }
+
+    @media(max-width: 580px) {
+       .container {
+        .menu {
+            li {
+                a {
+                    font-size: 1.2rem;
+                    line-height: 1.8rem;
+                }
+            }
+        }
+       }
+    }
 }
