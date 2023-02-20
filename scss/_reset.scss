@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
     color: $gray-100;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 button {
     border: 0;
